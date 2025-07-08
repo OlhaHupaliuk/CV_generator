@@ -1,0 +1,106 @@
+#root {
+  min-height: 100vh;
+  background-color: #eaf0f2;
+}
+.form {
+  margin: 20px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5px;
+  box-shadow: 5px 5px 5px #0000000c;
+}
+.form title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.FormFields__wrap {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+label {
+  color: #444444;
+  font-weight: 500;
+}
+.FormField input,
+.FormField select,
+textarea {
+  padding: 6px 12px;
+  border: 1px solid #939393;
+  border-radius: 5px;
+  /* width: 100%; */
+}
+header {
+  background-color: white;
+  box-shadow: 5px 5px 5px #0000000c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+header h2 {
+  font-weight: 600;
+}
+
+header nav {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  height: 50px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+svg {
+  margin-top: 2px;
+}
+.switcher {
+  background-color: #efefef;
+  border-radius: 10px;
+  padding: 5px;
+}
+.editBtn {
+  color: #4545d5;
+  background-color: transparent;
+}
+.previewBtn {
+  color: rgb(94, 94, 94);
+  background-color: transparent;
+}
+.toggledBtn {
+  background-color: white;
+}
+.resetBtn {
+  color: #de4343;
+  background-color: transparent;
+}
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.downloadBtn {
+  color: white;
+  background-color: #4545d5;
+  border-radius: 50px;
+  position: sticky;
+  bottom: 5%;
+
+  right: 20px;
+}
